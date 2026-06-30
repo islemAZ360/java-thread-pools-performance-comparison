@@ -1,9 +1,7 @@
 <div align="center">
   <a href="https://github.com/islemAZ360/java-thread-pools-performance-comparison">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=40&duration=3000&pause=1000&color=0EA5E9&center=true&vCenter=true&width=1000&height=70&lines=Java+Concurrency+Benchmark" alt="Main Title" />
+    <img src="assets/header.svg" alt="Animated Header" width="1000" />
   </a>
-  <br>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=4000&pause=1000&color=94A3B8&center=true&vCenter=true&width=1000&height=40&lines=FixedThreadPool+vs+CachedThreadPool+vs+Virtual+Threads;Project+Loom+%7C+Java+21+%7C+Load+Simulation" alt="Subtitle" />
   <br><br>
 
   <a href="https://www.java.com/en/"><img src="https://img.shields.io/badge/Java%2021+-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21" /></a>

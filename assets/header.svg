@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;800&amp;display=swap');
+      
+      .title {
+        font-family: 'JetBrains Mono', Courier, monospace;
+        font-size: 44px;
+        font-weight: 800;
+        fill: #0EA5E9;
+        text-anchor: middle;
+      }
+      .subtitle {
+        font-family: 'JetBrains Mono', Courier, monospace;
+        font-size: 22px;
+        font-weight: 500;
+        fill: #94A3B8;
+        text-anchor: middle;
+        opacity: 0;
+      }
+      .text1 {
+        animation: fade 8s ease-in-out infinite;
+      }
+      .text2 {
+        animation: fade 8s ease-in-out infinite 4s;
+      }
+      @keyframes fade {
+        0% { opacity: 0; }
+        15% { opacity: 1; }
+        35% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+  
+  <text x="500" y="60" class="title">Java Concurrency Benchmark</text>
+  
+  <text x="500" y="110" class="subtitle text1">FixedThreadPool vs CachedThreadPool vs Virtual Threads</text>
+  <text x="500" y="110" class="subtitle text2">Project Loom | Java 21 | Load Simulation</text>
+</svg>
